@@ -35,7 +35,7 @@ def merge(L):
 		return ans
 from time import perf_counter
 times =[]
-input_size = [10, 100, 1000]
+input_size = [10, 100, 5000]
 for l in input_size:
 	t1 = perf_counter()
 	ans = merge([x for x in range(l, 0, -1)])
